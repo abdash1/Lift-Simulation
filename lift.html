@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lift Simulation</title>
+    <link rel="stylesheet" href="lift.css">
+</head>
+<body>
+    <div class="container">
+        <div class="button-panel">
+            <button class="lift-button" onclick="moveLift(4)">4</button>
+            <button class="lift-button" onclick="moveLift(3)">3</button>
+            <button class="lift-button" onclick="moveLift(2)">2</button>
+            <button class="lift-button" onclick="moveLift(1)">1</button>
+            <button class="lift-button" onclick="moveLift(0)">0</button>
+        </div>
+
+        <div class="lift-shaft">
+            <div class="floor" id="floor-4">Floor 4</div>
+            <div class="floor" id="floor-3">Floor 3</div>
+            <div class="floor" id="floor-2">Floor 2</div>
+            <div class="floor" id="floor-1">Floor 1</div>
+            <div class="floor" id="floor-0">Ground Floor</div>
+
+            <div class="lift" id="lift"></div>
+        </div>
+    </div>
+
+    <script src="lift.js"></script>
+</body>
+</html>
